@@ -22,12 +22,20 @@
     <p>Já me livrei da maldição!!</p>
 
     <script>
-        var n1 = window.prompt('Digite um número: ') //string
-        var n2 = window.prompt('Digite outro número: ') //string
+        var n1 = Number(window.prompt('Digite um número: ')) //string
+        var n2 = Number(window.prompt('Digite outro número: ')) //string
         var s = n1 + n2
-        window.alert('A soma dos valores é' + s) //Concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `)
+
+        // --Uso do + --
         // (number + number) para adição
         // (string + string) para concatenação
+
+        // --Formatando Strings--
+        // var s = 'JavaScript'
+        // 'Eu estou aprendendo s' // não faz interpolação
+        // 'Eu estou aprendendo' + s // usa a concatenação
+        // `eu estou aprendendo ${s} // usa template string <-- Aqui usa a crase(`) no lugar das aspas simples('') ou aspas duplas("")
     </script>
 </body>
 </html>
