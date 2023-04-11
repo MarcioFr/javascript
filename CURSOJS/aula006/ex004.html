@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+</head>
+<body>
+    
+
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome? ')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras. <br>` )
+        document.write(`Seu nome em maiusculas é ${nome.toUpperCase()} <br>`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+
+        // --Formatando Números/Number--
+        // .toFixed(2) - para aumentar o número de casa decimal ex: de 1545.5 para 1545.50
+        // .replace - para substituir um símbolo por outro. Ex de síntaxe: n1.toFixed(2).replace('.', ',') = de 1545.50 para 1545,50
+        // .toLocaleString - para localizar a moeda corrente. Ex de síntaxe: n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para moeda brasileiro, USD para Dollar e EUR para Euro.
+    </script>
+</body>
+</html>
